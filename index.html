@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Rubik Doodle Shadow:wght@400&family=Almarai:wght@400&family=Rubik:wght@400;600&display=swap"
+  />
+  <title>Guess The Word</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div>
+   <span>XP : <span class="xp-count">0</span></span>
+  </div>
+  <h2></h2>
+
+  <div class="grid"></div>
+
+  <div class="keyboard">
+   <div>
+    <div class="key">q</div>
+    <div class="key">w</div>
+    <div class="key">e</div>
+    <div class="key">r</div>
+    <div class="key">t</div>
+    <div class="key">y</div>
+    <div class="key">u</div>
+    <div class="key">i</div>
+    <div class="key">o</div>
+    <div class="key">p</div>
+   </div>
+   <div>
+    <div class="key">a</div>
+    <div class="key">s</div>
+    <div class="key">d</div>
+    <div class="key">f</div>
+    <div class="key">g</div>
+    <div class="key">h</div>
+    <div class="key">j</div>
+    <div class="key">k</div>
+    <div class="key">l</div>
+    <div onclick="removeTheLetter()">&#x232B;</div>
+   </div>
+   <div>
+    <div class="key">z</div>
+    <div class="key">x</div>
+    <div class="key">c</div>
+    <div class="key">v</div>
+    <div class="key">b</div>
+    <div class="key">n</div>
+    <div class="key">m</div>
+    <div onclick="checkTheAnswer()">&#x23CE;</div>
+   </div>
+  </div>
+ </body>
+ <script src="script.js"></script>
+</html>
